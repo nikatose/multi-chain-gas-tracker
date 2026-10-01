@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+        content="Real-time gas tracker for Ethereum, Arbitrum, Optimism, Base and Polygon.">
+
+  <title>Multi-Chain Gas Tracker</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="container">
+
+    <header>
+      <div class="badge">⛽ LIVE NETWORK DATA</div>
+
+      <h1>Multi-Chain Gas Tracker</h1>
+
+      <p>
+        Monitor gas prices across popular EVM networks in real time.
+      </p>
+    </header>
+
+    <section class="networks" id="networks">
+
+      <div class="loading">
+        Loading network data...
+      </div>
+
+    </section>
+
+    <footer>
+      <span id="status">Connecting to networks...</span>
+      <span>Updates every 15 seconds</span>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
